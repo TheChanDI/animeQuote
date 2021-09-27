@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		7F79EA2526F337ED001990FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F79EA2426F337ED001990FC /* AppDelegate.swift */; };
 		7F79EA2726F337ED001990FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F79EA2626F337ED001990FC /* SceneDelegate.swift */; };
 		7F79EA2926F337ED001990FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F79EA2826F337ED001990FC /* ViewController.swift */; };
-		7F79EA2C26F337ED001990FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F79EA2A26F337ED001990FC /* Main.storyboard */; };
 		7F79EA2E26F337EE001990FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F79EA2D26F337EE001990FC /* Assets.xcassets */; };
 		7F79EA3126F337EE001990FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F79EA2F26F337EE001990FC /* LaunchScreen.storyboard */; };
+		7FCD197E26F38F5B008F0E69 /* QuoteListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD197D26F38F5B008F0E69 /* QuoteListVC.swift */; };
+		7FCD198126F38FAD008F0E69 /* AnimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD198026F38FAD008F0E69 /* AnimeModel.swift */; };
+		7FCD198326F38FE0008F0E69 /* QuoteListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD198226F38FE0008F0E69 /* QuoteListPresenter.swift */; };
+		7FCD198626F3903E008F0E69 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD198526F3903E008F0E69 /* AppManager.swift */; };
+		7FCD198826F39251008F0E69 /* QuoteListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD198726F39251008F0E69 /* QuoteListProtocol.swift */; };
+		7FCD198A26F39328008F0E69 /* QuoteListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FCD198926F39328008F0E69 /* QuoteListManager.swift */; };
+		DD816BAA0E8A6AE452D7A482 /* Pods_animeQuote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C32A0F285E1CAAD3F713B6B /* Pods_animeQuote.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C32A0F285E1CAAD3F713B6B /* Pods_animeQuote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_animeQuote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1D346CF38E678F2AABC768 /* Pods-animeQuote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-animeQuote.release.xcconfig"; path = "Target Support Files/Pods-animeQuote/Pods-animeQuote.release.xcconfig"; sourceTree = "<group>"; };
+		787AF29A898C83FC02E9FAAE /* Pods-animeQuote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-animeQuote.debug.xcconfig"; path = "Target Support Files/Pods-animeQuote/Pods-animeQuote.debug.xcconfig"; sourceTree = "<group>"; };
 		7F79EA2126F337ED001990FC /* animeQuote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animeQuote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F79EA2426F337ED001990FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F79EA2626F337ED001990FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7F79EA2826F337ED001990FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7F79EA2B26F337ED001990FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F79EA2D26F337EE001990FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F79EA3026F337EE001990FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F79EA3226F337EE001990FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FCD197D26F38F5B008F0E69 /* QuoteListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteListVC.swift; sourceTree = "<group>"; };
+		7FCD198026F38FAD008F0E69 /* AnimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeModel.swift; sourceTree = "<group>"; };
+		7FCD198226F38FE0008F0E69 /* QuoteListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteListPresenter.swift; sourceTree = "<group>"; };
+		7FCD198526F3903E008F0E69 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		7FCD198726F39251008F0E69 /* QuoteListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteListProtocol.swift; sourceTree = "<group>"; };
+		7FCD198926F39328008F0E69 /* QuoteListManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteListManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD816BAA0E8A6AE452D7A482 /* Pods_animeQuote.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D4556D5075AD2049C82EA0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				787AF29A898C83FC02E9FAAE /* Pods-animeQuote.debug.xcconfig */,
+				5B1D346CF38E678F2AABC768 /* Pods-animeQuote.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7F79EA1826F337ED001990FC = {
 			isa = PBXGroup;
 			children = (
 				7F79EA2326F337ED001990FC /* animeQuote */,
 				7F79EA2226F337ED001990FC /* Products */,
+				7D4556D5075AD2049C82EA0F /* Pods */,
+				E80B457C5AE69F318E826DFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +82,84 @@
 		7F79EA2326F337ED001990FC /* animeQuote */ = {
 			isa = PBXGroup;
 			children = (
+				7FCD198426F39032008F0E69 /* Helpers */,
+				7FCD197726F37B63008F0E69 /* Service */,
+				7FCD197626F37B2B008F0E69 /* Modules */,
 				7F79EA2426F337ED001990FC /* AppDelegate.swift */,
 				7F79EA2626F337ED001990FC /* SceneDelegate.swift */,
 				7F79EA2826F337ED001990FC /* ViewController.swift */,
-				7F79EA2A26F337ED001990FC /* Main.storyboard */,
 				7F79EA2D26F337EE001990FC /* Assets.xcassets */,
 				7F79EA2F26F337EE001990FC /* LaunchScreen.storyboard */,
 				7F79EA3226F337EE001990FC /* Info.plist */,
 			);
 			path = animeQuote;
+			sourceTree = "<group>";
+		};
+		7FCD197626F37B2B008F0E69 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				7FCD197826F38EF5008F0E69 /* Quote list */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		7FCD197726F37B63008F0E69 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		7FCD197826F38EF5008F0E69 /* Quote list */ = {
+			isa = PBXGroup;
+			children = (
+				7FCD197C26F38F38008F0E69 /* Presenter */,
+				7FCD197B26F38F16008F0E69 /* View */,
+				7FCD197926F38F01008F0E69 /* Model */,
+				7FCD198926F39328008F0E69 /* QuoteListManager.swift */,
+			);
+			path = "Quote list";
+			sourceTree = "<group>";
+		};
+		7FCD197926F38F01008F0E69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7FCD198026F38FAD008F0E69 /* AnimeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7FCD197B26F38F16008F0E69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7FCD197D26F38F5B008F0E69 /* QuoteListVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7FCD197C26F38F38008F0E69 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7FCD198226F38FE0008F0E69 /* QuoteListPresenter.swift */,
+				7FCD198726F39251008F0E69 /* QuoteListProtocol.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7FCD198426F39032008F0E69 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7FCD198526F3903E008F0E69 /* AppManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E80B457C5AE69F318E826DFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C32A0F285E1CAAD3F713B6B /* Pods_animeQuote.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F79EA3526F337EE001990FC /* Build configuration list for PBXNativeTarget "animeQuote" */;
 			buildPhases = (
+				7B10CECC703BDCD49CCFE4A3 /* [CP] Check Pods Manifest.lock */,
 				7F79EA1D26F337ED001990FC /* Sources */,
 				7F79EA1E26F337ED001990FC /* Frameworks */,
 				7F79EA1F26F337ED001990FC /* Resources */,
+				DE763328114F215CD5AC9FEF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,34 +223,73 @@
 			files = (
 				7F79EA3126F337EE001990FC /* LaunchScreen.storyboard in Resources */,
 				7F79EA2E26F337EE001990FC /* Assets.xcassets in Resources */,
-				7F79EA2C26F337ED001990FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B10CECC703BDCD49CCFE4A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-animeQuote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE763328114F215CD5AC9FEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-animeQuote/Pods-animeQuote-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-animeQuote/Pods-animeQuote-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-animeQuote/Pods-animeQuote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7F79EA1D26F337ED001990FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FCD198626F3903E008F0E69 /* AppManager.swift in Sources */,
 				7F79EA2926F337ED001990FC /* ViewController.swift in Sources */,
+				7FCD198326F38FE0008F0E69 /* QuoteListPresenter.swift in Sources */,
 				7F79EA2526F337ED001990FC /* AppDelegate.swift in Sources */,
+				7FCD198A26F39328008F0E69 /* QuoteListManager.swift in Sources */,
+				7FCD198126F38FAD008F0E69 /* AnimeModel.swift in Sources */,
 				7F79EA2726F337ED001990FC /* SceneDelegate.swift in Sources */,
+				7FCD198826F39251008F0E69 /* QuoteListProtocol.swift in Sources */,
+				7FCD197E26F38F5B008F0E69 /* QuoteListVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7F79EA2A26F337ED001990FC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7F79EA2B26F337ED001990FC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7F79EA2F26F337EE001990FC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +419,7 @@
 		};
 		7F79EA3626F337EE001990FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 787AF29A898C83FC02E9FAAE /* Pods-animeQuote.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,7 +430,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = chandi.animeQuote;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chandi.animeQuote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,6 +439,7 @@
 		};
 		7F79EA3726F337EE001990FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B1D346CF38E678F2AABC768 /* Pods-animeQuote.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,7 +450,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = chandi.animeQuote;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chandi.animeQuote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

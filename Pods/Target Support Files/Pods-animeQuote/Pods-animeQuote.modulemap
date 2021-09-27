@@ -1,0 +1,6 @@
+framework module Pods_animeQuote {
+  umbrella header "Pods-animeQuote-umbrella.h"
+
+  export *
+  module * { export * }
+}
